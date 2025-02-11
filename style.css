@@ -14,16 +14,16 @@
      position: absolute;
      left: 50%; 
      top: 50%;
-     transform: translate(-50%, 5%); /* Очень близко к кнопке */
+     transform: translate(-50%, 5%)
 }
 
 .file-input {
-     display: none; /* Скрываем реальный элемент input */
+     display: none;
 }
 
 .choose-file-btn {
      display: inline-block;
-     margin-top: 20px; /* Расстояние от куба */
+     margin-top: 20px;
      padding: 10px 20px;
      background-color: #4CAF50;
      color: white;
@@ -36,11 +36,6 @@
 .choose-file-btn:hover {
      background-color: #45a049;
 }
-
-
-
-
-
 
 body {
      display: flex;
@@ -105,7 +100,6 @@ header {
 }
 
 
-/* Выравнивание текста в параграфах */
 p {
      text-align: justify;
 }
